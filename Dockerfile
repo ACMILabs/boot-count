@@ -6,4 +6,4 @@ ENV FLASK_APP=count.py
 COPY . /code/
 WORKDIR /code/
 
-CMD ["flask", "run", "--host=0.0.0.0"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8082"]
